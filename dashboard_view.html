@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="ui_dashboards.css">
+</head>
+<body>
+    <div class="Frame">
+        <div class="logout-wrapper">
+            <a class="logout" href="logout.php">Log out</a>
+        </div>
+
+        <div class="portfolio">
+            <header class="portfolio-header">
+                <h1 class="Titleteks">Portofolio</h1>
+                <p class="user-email">Akun: <?php echo htmlspecialchars($_SESSION["email"]); ?></p>
+            </header>
+
+            <section class="about">
+                <h2>Profile</h2>
+                <h3>Halo! <?php echo htmlspecialchars($_SESSION["email"]); ?></h3>
+                <p><strong>Umur:</strong> 20 tahun</p>
+                <p><strong>Lahir di:</strong> Indonesia</p>
+                <p><strong>tinggal di:</strong> Indonesia</p>
+            </section>
+
+            <section class="contact">
+                <h2>Kontak</h2>
+                <p>Email: <?php echo htmlspecialchars($_SESSION["email"]); ?>@gmail.com</p>
+                <p>GitHub: github.com/username</p>
+                <p>LinkedIn: linkedin.com/in/username</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
