@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #0040ff 0%, #000000 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.Frame {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/278/153/small/abstract-sciencece-or-technology-with-neon-light-and-empty-space-for-text-futuristic-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 140%;
+    border-radius: 20px;
+    padding: 5%;
+    width: 60%;
+    max-width: 90%;
+}
+
+.Logo {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.Titleteks {
+    color: #ffffff;
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 5%;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.Subtitleteks {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 1%;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.loginbox {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 4%;
+}
+
+.SignIn {
+    width: 100%;
+    color: #fff;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0040ff;
+    text-align: center;
+    border: none;
+}
+
+.SignIn:hover {
+    transform: translateY(-2px);
+}
+
+.SignIn:active {
+    transform: translateY(2px);
+    background: #0037dd;
+}
+
+
+.Logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    margin-bottom: -5%;
+}
+
+.logoicon {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+}
+
+.logoicon:hover {
+    transform: translateY(-2px);
+}
+
+
+#logo1 {
+    background-image: url(data:image/webp;base64,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);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 50%;
+}
+
+#logo2 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1280px-Instagram_icon.png?_=20200512141346);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 45%;
+}
+
+#logo3 {
+    background-image: url(https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e278299a53f5bf88615e90_Symbol.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 50%;
+}
+
+#inputbox {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10%;
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+
+td {
+    padding: 8px;
+    border: none;
+}
+
+.message {
+    display: inline-block;
+    font-size: 130%;
+    background-color: #ff3737;
+    color:#fff;
+    margin-top: 50px;
+}
+
+.message:hover {
+    background-color: #ff373798;
+    color:#fff;
+}
