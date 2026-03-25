@@ -2,7 +2,7 @@
 session_start();
 
 if (isset($_SESSION["login"]) && $_SESSION["login"] == "Successfully") {
-    header("Location: dashboard.php");
+    header("Location: dashboard_view.php");
     exit();
 }
 
