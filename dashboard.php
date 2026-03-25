@@ -3,7 +3,7 @@
 session_start();
 
 if (!isset($_SESSION["login"]) || $_SESSION["login"] != "Successfully") {
-    header("Location: login.php");
+    header("Location: index.html");
     exit();
 }
 
